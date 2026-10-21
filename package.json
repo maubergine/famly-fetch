@@ -1,0 +1,14 @@
+{
+  "name": "famly-fetch",
+  "version": "0.5.3",
+  "private": true,
+  "description": "Dev tooling only: commit linting. The project itself doesn't use Node.",
+  "scripts": {
+    "commitlint": "commitlint",
+    "prepare": "git config core.hooksPath .githooks || true"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "21.2.3",
+    "@commitlint/config-conventional": "21.2.3"
+  }
+}
